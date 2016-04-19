@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import java.io.IOException;
 import java.net.URI;
 
 /**
@@ -16,11 +17,13 @@ public class SoundButton {
     private Context context;
     private int resId;
     private int bId;
+    private MediaPlayer mp;
 
     public SoundButton(Context context, int resId, int bId) {
         this.context = context;
         this.resId = resId;
         this.bId = bId;
+        mp = MediaPlayer.create(context, resId);
     }
 
     public Button generateButton(AppCompatActivity activity) {
@@ -35,15 +38,12 @@ public class SoundButton {
     }
 
     public void play() {
-        MediaPlayer player = MediaPlayer.create(context, resId);
-        player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            @Override
-            public void onCompletion(MediaPlayer mp) {
-                mp.release();
-                mp = null;
-            }
-        });
-        player.start();
+        mp.seekTo(0);
+        mp.start();
+    }
+
+    public void dispose() {
+        mp.release();
     }
 
 }

@@ -54,4 +54,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        for(SoundButton soundButton : soundButtons) {
+            soundButton.dispose();
+        }
+    }
 }
