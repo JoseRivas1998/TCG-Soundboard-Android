@@ -1,5 +1,6 @@
 package com.tcg.tcgsoundboard;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -51,6 +52,15 @@ public class MainActivity extends AppCompatActivity {
                 for(SoundButton soundButton : soundButtons) {
                     soundButton.play();
                 }
+            }
+        });
+
+        Button pumkin = (Button) this.findViewById(R.id.pumkinFromMain);
+        pumkin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Pumkin.class);
+                startActivity(i);
             }
         });
     }
