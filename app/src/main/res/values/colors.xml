@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="pumkinBg">#FF811E</color>
+    <color name="pumkinBtnTop">#F6B200</color>
+    <color name="pumkinBtnBottom">#F8C811</color>
 </resources>

@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pumkin"></activity>
+        <activity android:name=".Pumkin" />
+        <activity android:name=".PumkinFood"></activity>
     </application>
 
 </manifest>

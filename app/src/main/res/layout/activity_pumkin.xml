@@ -8,6 +8,25 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tcg.tcgsoundboard.Pumkin"
-    android:id="@+id/mainLayout">
+    android:id="@+id/pumkinHomeMainLayout">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sound Home"
+            android:id="@+id/pumkinSoundHome"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:id="@+id/foodFromPumkinHome"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
 </RelativeLayout>
