@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tcg.tcgsoundboard.PumkinClothes"
+    android:id="@+id/pumkinClothesMainLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pumkin Home"
+                android:id="@+id/pumkinHomeFromClothes"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Play All"
+                android:id="@+id/playAllPumkinClothes"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dress"
+                android:id="@+id/dress"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Gloves"
+                android:id="@+id/gloves"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Jacket"
+                android:id="@+id/jacket"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pants"
+                android:id="@+id/pants"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Perfect for drying these clothes"
+                android:id="@+id/perfect_for_drying_these_clothes"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandles"
+                android:id="@+id/sandles"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Scarf"
+                android:id="@+id/scarf"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Shoes"
+                android:id="@+id/shoes"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Shorts"
+                android:id="@+id/shorts"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Skirt"
+                android:id="@+id/skirt"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sneakers"
+                android:id="@+id/sneakers"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Socks"
+                android:id="@+id/socks"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sweater"
+                android:id="@+id/sweater"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="T-Shirt"
+                android:id="@+id/t_shirt"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="What a Windy Day"
+                android:id="@+id/what_a_windy_day"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Pumkin" />
-        <activity android:name=".PumkinFood"></activity>
+        <activity android:name=".PumkinFood" />
+        <activity android:name=".PumkinClothes"></activity>
     </application>
 
 </manifest>

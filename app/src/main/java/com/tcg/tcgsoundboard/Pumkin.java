@@ -40,6 +40,15 @@ public class Pumkin extends AppCompatActivity {
             }
         });
 
+        Button clothes = (Button) findViewById(R.id.clothesFromPumkinHome);
+        clothes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), PumkinClothes.class);
+                startActivity(i);
+            }
+        });
+
         GradientDrawable gradient = new GradientDrawable(
             GradientDrawable.Orientation.TOP_BOTTOM,
             new int[] {
@@ -50,6 +59,7 @@ public class Pumkin extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
             home.setBackground(gradient);
             food.setBackground(gradient);
+            clothes.setBackground(gradient);
         }
     }
 }
