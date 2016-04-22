@@ -67,6 +67,9 @@ public class PumkinFood extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                for(SoundButton soundButton : soundButtons) {
+                    soundButton.dispose();
+                }
                 Intent i = new Intent(getApplicationContext(), Pumkin.class);
                 startActivity(i);
             }
