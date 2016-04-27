@@ -2,6 +2,7 @@ package com.tcg.tcgsoundboard;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -64,6 +65,15 @@ public class MainActivity extends AppCompatActivity {
                 }
                 Intent i = new Intent(getApplicationContext(), Pumkin.class);
                 startActivity(i);
+            }
+        });
+
+        Button request = (Button) this.findViewById(R.id.requestSound);
+        request.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gitHub = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/JoseRivas1998/TCG-soundboard/issues/new"));
+                startActivity(gitHub);
             }
         });
     }

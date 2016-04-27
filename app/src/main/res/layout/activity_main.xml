@@ -157,6 +157,13 @@
                 android:text="Wednesday AH"
                 android:id="@+id/wednesday_2" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Request a Sound"
+                android:id="@+id/requestSound"
+                android:layout_marginTop="40dp"/>
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
