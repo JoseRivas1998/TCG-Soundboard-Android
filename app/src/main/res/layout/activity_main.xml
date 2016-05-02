@@ -160,6 +160,18 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Smash the Like"
+                android:id="@+id/smash_the_like" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deez Nuts"
+                android:id="@+id/deez_nuts" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Request a Sound"
                 android:id="@+id/requestSound"
                 android:layout_marginTop="40dp"/>

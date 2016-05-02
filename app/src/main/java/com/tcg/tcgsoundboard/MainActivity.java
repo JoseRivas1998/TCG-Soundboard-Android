@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity {
             new SoundButton(this, R.raw.not_even_once, R.id.not_even_once),
             new SoundButton(this, R.raw.here_comes_the_clarke, R.id.here_comes_the_clarke),
             new SoundButton(this, R.raw.wednesday_1, R.id.wednesday_1),
-            new SoundButton(this, R.raw.wednesday_2, R.id.wednesday_2)
+            new SoundButton(this, R.raw.wednesday_2, R.id.wednesday_2),
+            new SoundButton(this, R.raw.smash_the_like, R.id.smash_the_like),
+            new SoundButton(this, R.raw.deez_nuts, R.id.deez_nuts)
         };
         buttons = new Button[soundButtons.length];
         for(int i = 0; i < soundButtons.length; i++) {
