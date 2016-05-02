@@ -38,8 +38,12 @@ public class SoundButton {
     }
 
     public void play() {
-        mp.seekTo(0);
-        mp.start();
+        try {
+            mp.seekTo(0);
+            mp.start();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void dispose() {
